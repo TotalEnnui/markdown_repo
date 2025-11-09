@@ -4,7 +4,8 @@
 - [🧬 Make VCPKG\_ROOT persistent for MSYS UCRT64 bash](#-make-vcpkg_root-persistent-for-msys-ucrt64-bash)
 - [🔨 Configuration and builds](#-configuration-and-builds)
   - [ucrt64 gcc](#ucrt64-gcc)
-  - [Using ninja: ucrt64-ninja with ucrt64 bash](#using-ninja-ucrt64-ninja-with-ucrt64-bash)
+  - [UCT64 bash and ninja preset, configure and build](#uct64-bash-and-ninja-preset-configure-and-build)
+  - [ucrt64 bash and ninja configure without preset](#ucrt64-bash-and-ninja-configure-without-preset)
   - [Developer PowerShell](#developer-powershell)
 - [🛤️ Add PowerShell to MSYS2 $PATH](#️-add-powershell-to-msys2-path)
 - [📚 Common Windows Libraries](#-common-windows-libraries)
@@ -65,12 +66,23 @@ cmake --preset ucrt64-gcc
 cmake --build --preset ucrt64-gcc
 ```
 
-### Using ninja: ucrt64-ninja with ucrt64 bash
+### UCT64 bash and ninja preset, configure and build
 
 ```cmake
 cmake --preset ucrt64-ninja
 cmake --build --preset ucrt64-ninja
 ```
+
+### ucrt64 bash and ninja configure without preset
+
+```bash
+cmake -S . -B build \
+  -G Ninja \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX=/ucrt64
+```
+
+> build: `cmake --build build`
 
 ### Developer PowerShell
 
