@@ -35,6 +35,8 @@
   - [Visual Grammar](#visual-grammar)
 - [📁 Suggested Directory Structure](#-suggested-directory-structure)
   - [Workspace Layout](#workspace-layout)
+- [Using template repo](#using-template-repo)
+  - [🧪 Using GitHub CLI](#-using-github-cli)
 
 ## 🔗 Create system link to allow MSYS UCRT64 to recognize c:\vcpkg
 
@@ -345,4 +347,23 @@ CMake will fall back to system paths (`/usr/lib`, `C:\Program Files`, etc.), whi
 |- docs/        # Markdown guides and cheat sheets
 |- templates/   # Reusable scaffolds for new projects
 |- assets/      # Images or diagrams for documentation
+```
+
+## Using template repo
+
+### 🧪 Using GitHub CLI
+
+> Using GitHub CLI (gh), run:
+
+Example:
+
+```bash
+gh repo create my-new-project --template TotalEnnui/base_vcpkg
+```
+
+Then clone it:
+
+```bash
+git clone https://github.com/TotalEnnui/my-new-project.git
+cd my-new-project
 ```
