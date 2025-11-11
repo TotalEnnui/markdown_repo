@@ -18,3 +18,17 @@ C++ Standard Library
 ├── I/O Streams: cin, cout, cerr, file streams
 ├── Localization: locale, codecvt
 └── Math & Numerics: complex, valarray, random, numeric_limits
+
+---
+
+## The Layers of the C++ Ecosystem
+
+> Language standard (ISO C++) Defines the rules of the language itself — syntax, semantics, standard library.
+
+| Component          | Examples                                  | Descriptions                                                                      |
+|--------------------|-------------------------------------------|-----------------------------------------------------------------------------------|
+| Compilers          | Clang, GCC, MSVC, Intel                   | Translate C++ source into machine code.                                           |
+| Linkers            | GNU ld, MSVC link.exe, LLVM lld, Mold     | Stitch together object files and libraries into executables or shared libs.       |
+| Build systems      | Make, Ninja, MSBuild, NMake               | Orchestrate compilation and linking, handle dependencies, parallelism.            |
+| Meta-build systems | CMake, Meson, Bazel                       | Generate input for the build systems, abstracting away platform/compiler quirks.  |
+| IDEs and editors   | CLion, Visual Studio, VS Code, Qt Creator | Wrap everything in a developer-friendly cockpit with debug, refactor, and tooling.|

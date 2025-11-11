@@ -1,0 +1,119 @@
+{
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/msys64/mingw32/bin",
+    "C:/msys64/mingw64/bin",
+    "C:/msys64/clang32/bin",
+    "C:/msys64/clang64/bin",
+    "C:/msys64/clangarm64/bin",
+    "C:/msys64/ucrt64/bin"
+  ],
+  "cmake.configureOnOpen": true,
+  "cmake.options.advanced": {
+    "build": { "inheritDefault": "visible", "statusBarVisibility": "inherit" },
+    "debug": { "inheritDefault": "visible", "statusBarVisibility": "inherit" },
+    "launch": { "inheritDefault": "visible", "statusBarVisibility": "inherit" }
+  },
+  "cmake.options.statusBarVisibility": "visible",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "cmake.showOptionsMovedNotification": false,
+
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.codeActionsOnSave": {},
+  "editor.fontSize": 16,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.inlineSuggest.enabled": false,
+  "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+  "editor.wordWrap": "on",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+
+  "files.autoSave": "onFocusChange",
+      "files.dialog.defaultPath": "C:\\Users\\alp19\\Documents\\repos",
+    "files.exclude": {
+        "**/.git": false
+    },
+
+  "git.autofetch": true,
+  "github.copilot.advanced": {},
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+
+  "gitlens.views.scm.grouped.views": {
+    "branches": true,
+    "commits": true,
+    "contributors": true,
+    "launchpad": true,
+    "remotes": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true
+  },
+
+  "liveServer.settings.CustomBrowser": "chrome",
+
+  "scm.compactFolders": false,
+
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.emptyWindow": false,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+
+  "terminal.integrated.defaultProfile.windows": "Dev PowerShell (VS 2022)",
+
+  "terminal.integrated.profiles.windows": {
+    "Dev PowerShell (VS 2022)": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+	  "args": [
+	    "-NoExit",
+	    "-ExecutionPolicy", "Bypass",
+	    "-Command",
+	    "& { & 'C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Launch-VsDevShell.ps1' -Arch amd64; Set-Location '${workspaceFolder}' }"
+	  ],
+		"cwd": "${workspaceFolder}"
+	  },
+	  "Git Bash": {
+	    "source": "Git Bash",
+	    "cwd": "${workspaceFolder}"
+	  },
+	  "MSYS2 UCRT64": {
+	  "path": "C:\\msys64\\usr\\bin\\bash.exe",
+	  "args": ["--login", "-i"],
+	  "cwd": "${workspaceFolder}",
+	  "env": {
+	   "CHERE_INVOKING": "1",
+		  "MSYSTEM": "UCRT64"
+	  },
+	  "icon": "terminal-bash"
+	},
+	"Command Prompt": null,
+	"PowerShell": null,
+	 "Git Bash (auto)": null
+  },
+
+  "vcpkg.general.vcpkgPath": "C:/vcpkg",
+
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.editorAssociations": { "*.sln": "default" },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.settings.useSplitJSON": true,
+  "git.confirmSync": false,
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "[markdown]": {
+    "editor.defaultFormatter": "darkriszty.markdown-table-prettify"
+  },
+  "markdown.extension.toc.omittedFromToc": {
+    
+  },
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css"
+}
