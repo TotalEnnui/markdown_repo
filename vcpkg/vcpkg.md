@@ -37,5 +37,3 @@ This would reduce redundant path settings.
 This prioritizes vcpkg's config files over system-wide installations.
 Final Thoughts
 It should be easier, and in most cases, just setting CMAKE_TOOLCHAIN_FILE is enough. But since fmt wasn't being detected, layering CMAKE_PREFIX_PATH and fmt_DIR ensured CMake worked correctly. Now that you’ve got this locked down, future package integrations should be much smoother!
-
-## 

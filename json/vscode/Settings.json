@@ -1,0 +1,140 @@
+{
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/mingw64/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "cmake.configureOnOpen": true,
+    "cmake.options.advanced": {
+        "build": {
+            "inheritDefault": "visible",
+            "statusBarVisibility": "inherit"
+        },
+        "debug": {
+            "inheritDefault": "visible",
+            "statusBarVisibility": "inherit"
+        },
+        "launch": {
+            "inheritDefault": "visible",
+            "statusBarVisibility": "inherit"
+        }
+    },
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeActionsOnSave": {},
+    "editor.fontSize": 16,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.syntaxHighlightingEnabled": false,
+    "editor.wordWrap": "on",
+
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+
+    "files.autoSave": "onFocusChange",
+    "files.dialog.defaultPath": "C:\\Users\\alp19\\Documents\\repos",
+    "files.exclude": {
+        "**/.git": false
+    },
+
+    "git.autofetch": true,
+
+    "github.copilot.advanced": {},
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+
+    "gitlens.views.scm.grouped.views": {
+        "branches": true,
+        "commits": true,
+        "contributors": true,
+        "launchpad": true,
+        "remotes": true,
+        "repositories": false,
+        "searchAndCompare": false,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true
+    },
+
+    "liveServer.settings.CustomBrowser": "chrome",
+
+    "scm.compactFolders": false,
+
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.startupPrompt": "never",
+
+    "terminal.integrated.defaultProfile.osx": "",
+    "terminal.integrated.defaultProfile.windows": "Developer PowerShell for VS 2022",
+
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "icon": "terminal-bash",
+            "path": "bash"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "pwsh": {
+            "icon": "terminal-powershell",
+            "path": "pwsh"
+        },
+        "tmux": {
+            "icon": "terminal-tmux",
+            "path": "tmux"
+        },
+        "zsh": {
+            "path": "zsh"
+        }
+    },
+
+    "terminal.integrated.profiles.windows": {
+        "Command Prompt": null,
+        "Developer PowerShell for VS 2022": {
+            "args": [
+                "-NoExit",
+                "-ExecutionPolicy", "Bypass",
+                "-File", "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\Tools\\Launch-VsDevShell.ps1"
+            ],
+            "cwd": "${workspaceFolder}",
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        },
+        "Git Bash": {
+            "cwd": "${workspaceFolder}",
+            "source": "Git Bash"
+        },
+        "MSYS2 UCRT64": {
+            "args": ["--login", "-i"],
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "CHERE_INVOKING": "1",
+                "MSYSTEM": "UCRT64"
+            },
+            "icon": "terminal-bash",
+            "path": "C:\\msys64\\usr\\bin\\bash.exe"
+        },
+        "PowerShell": null
+    },
+
+    "vcpkg.general.vcpkgPath": "C:/vcpkg",
+
+    "workbench.colorTheme": "codeSTACKr Theme",
+    "workbench.editorAssociations": {
+        "*.sln": "default"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.settings.useSplitJSON": true
+}

@@ -37,6 +37,7 @@
   - [Workspace Layout](#workspace-layout)
 - [Using template repo](#using-template-repo)
   - [🧪 Using GitHub CLI](#-using-github-cli)
+- [Config vs modular](#config-vs-modular)
 
 ## 🔗 Create system link to allow MSYS UCRT64 to recognize c:\vcpkg
 
@@ -209,6 +210,12 @@ git config --global user.name "TotalEnnui"
 git config --global user.email aprpkp@gmail.com
 ```
 
+> You can view all of your settings and where they are coming from using:
+
+```bash
+git config --list --show-origin
+```
+
 ---
 
 ## CMake generic configure, build, and install
@@ -367,3 +374,26 @@ Then clone it:
 git clone https://github.com/TotalEnnui/my-new-project.git
 cd my-new-project
 ```
+
+## Config vs modular
+
+> find_package(fmt REQUIRED)
+
+This is the classic form. CMake will try to locate the fmt package using its default search mechanisms:
+
+- Looks for a Findfmt.cmake module in CMAKE_MODULE_PATH
+- If none is found, it may fail unless a fmtConfig.cmake is discoverable via CMAKE_PREFIX_PATH
+
+This is flexible but can be ambiguous—especially if multiple versions or install methods exist.
+
+> find_package(fmt CONFIG REQUIRED)
+
+This is the modern, explicit form. It tells CMake:
+
+- Looks for a config file named `fmtConfig.cmake` or `fmt-config.cmake` *don’t try to use a Findfmt.cmake module*
+- This is ideal when using package managers like vcpkg, Conan, or CPM, which install packages with config files. It ensures:
+  - No accidental fallback to a legacy Findfmt.cmake
+  - More predictable and reproducible behavior
+  - Avoids ambiguity
+  - Aligns with vcpkg
+- Skips the module search entirely. Only accept a config file.
