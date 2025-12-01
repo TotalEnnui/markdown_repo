@@ -1,4 +1,4 @@
-# READM.md <!-- omit in toc -->
+# cmake.md <!-- omit in toc -->
 
 - [🔗 Create system link to allow MSYS UCRT64 to recognize c:\\vcpkg](#-create-system-link-to-allow-msys-ucrt64-to-recognize-cvcpkg)
 - [🧬 Make VCPKG\_ROOT persistent for MSYS UCRT64 bash](#-make-vcpkg_root-persistent-for-msys-ucrt64-bash)
