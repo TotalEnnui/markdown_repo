@@ -1,6 +1,11 @@
-# VS Code tips & tricks
+# VS Code tips & tricks <!-- omit in toc -->
 
----
+- [launch, tasks, and workspaces json file settings](#launch-tasks-and-workspaces-json-file-settings)
+  - [🚀 launch.json — Debug Configurations](#-launchjson--debug-configurations)
+  - [🛠️ tasks.json — Build \& Automation](#️-tasksjson--build--automation)
+  - [🗂️ .code-workspace — Workspace Settings](#️-code-workspace--workspace-settings)
+
+T---
 
 ## launch, tasks, and workspaces json file settings
 
