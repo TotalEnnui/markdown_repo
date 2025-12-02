@@ -1,6 +1,7 @@
 # cmake.md <!-- omit in toc -->
 
 - [🔗 Create system link to allow MSYS UCRT64 to recognize c:\\vcpkg](#-create-system-link-to-allow-msys-ucrt64-to-recognize-cvcpkg)
+- [[#🔗 Create system link to allow MSYS UCRT64 to recognize c vcpkg]]
 - [🧬 Make VCPKG\_ROOT persistent for MSYS UCRT64 bash](#-make-vcpkg_root-persistent-for-msys-ucrt64-bash)
 - [🔨 Configuration and builds](#-configuration-and-builds)
   - [ucrt64 gcc](#ucrt64-gcc)
@@ -39,7 +40,7 @@
   - [🧪 Using GitHub CLI](#-using-github-cli)
 - [Config vs modular](#config-vs-modular)
 
-## 🔗 Create system link to allow MSYS UCRT64 to recognize c:\vcpkg
+## 🔗 [[Create system link]] to allow MSYS UCRT64 to recognize c:\vcpkg
 
 from ucrt64 bash:
 

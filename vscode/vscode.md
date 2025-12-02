@@ -1,4 +1,4 @@
-# VS Code tips & tricks <!-- omit in toc -->
+[Page not found · GitHub · GitHub](https://github.com/TotalEnnui/my-new-project.git)
 
 - [launch, tasks, and workspaces json file settings](#launch-tasks-and-workspaces-json-file-settings)
   - [🚀 launch.json — Debug Configurations](#-launchjson--debug-configurations)

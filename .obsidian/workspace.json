@@ -4,11 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "8f3d981826b493e0",
+        "id": "ff5d59ea76642c25",
         "type": "tabs",
         "children": [
           {
-            "id": "beb37532472f6a55",
+            "id": "3d6b7e845b446361",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "c_plus/c_plus.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of c_plus"
+            }
+          },
+          {
+            "id": "61316ad19a753173",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cmake/cmake.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cmake"
+            }
+          },
+          {
+            "id": "8be379fb5dbe429c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +70,27 @@
               },
               "icon": "lucide-file",
               "title": "cmake"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "a51f151885f7b47b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9950a0edbe0c59a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "c_plus/c_plus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "c_plus"
             }
           }
         ]
@@ -183,8 +255,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "beb37532472f6a55",
+  "active": "a9950a0edbe0c59a",
   "lastOpenFiles": [
+    "cmake/cmake.md",
+    "vcpkg/vcpkg.md",
+    "cmake/Create system link.md",
     "c_plus/c_plus.md"
   ]
 }
